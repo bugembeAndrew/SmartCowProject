@@ -1,0 +1,31 @@
+<resources>
+    <string name="app_name">Smart Cow</string>
+    <string name="title_activity_map">Map</string>
+    <string name="action_settings">Settings</string>
+    <string name="sign_in_label">SIGN IN</string>
+    <string name="sign_up_label">SIGN UP</string>
+    <string name="fName">First Name</string>
+    <string name="lName">Last Name</string>
+    <string name="email">Email Address</string>
+    <string name="telephone">Telephone</string>
+    <string name="password">Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="btn_sign_in">SIGN IN</string>
+    <string name="btn_sign_up">SIGN UP</string>
+    <string name="link_to_sign_up">NOT A MEMBER? SIGN UP!</string>
+    <string name="gender">Gender</string>
+    <string name="category">User Type</string>
+    <string name="logout">Sign Out</string>
+    <string name="cattle">Cattle Details</string>
+    <string name="title">Name</string>
+    <string name="weight">Weight</string>
+    <string name="sex">Sex</string>
+    <string name="dob">Date Of Birth</string>
+    <string name="created">Created On</string>
+    <string name="updated">Updated On</string>
+    <string name="farm">Farm</string>
+    <string name="offSpring">Off Spring(s)</string>
+    <string name="milk">Litres Of Milk</string>
+    <string name="breed">Breed</string>
+    <string name="welcome">Welcome</string>
+</resources>

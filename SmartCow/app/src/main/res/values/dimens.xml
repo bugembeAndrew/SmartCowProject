@@ -1,0 +1,14 @@
+<resources>
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">16dp</dimen>
+    <dimen name="activity_vertical_margin">16dp</dimen>
+    <dimen name="cattle_name">17sp</dimen>
+    <dimen name="farm_name">17sp</dimen>
+    <dimen name="user_name">17sp</dimen>
+    <dimen name="breed">15sp</dimen>
+    <dimen name="location">15sp</dimen>
+    <dimen name="telephone">15sp</dimen>
+    <dimen name="latitude">15sp</dimen>
+    <dimen name="longitude">15sp</dimen>
+    <dimen name="speed">15sp</dimen>
+</resources>

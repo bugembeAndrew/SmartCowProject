@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.smartcowprojekt.smartcow">
+
+    <!--
+         The ACCESS_COARSE/FINE_LOCATION permissions are not required to use
+         Google maps Android API v2, but you must specify either coarse or fine
+         location permissions for the 'MyLocation' functionality. 
+    -->
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+
+    <!-- <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/> -->
+    <application
+        android:name=".app.AppController"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".activity.Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".activity.Login" />
+        <activity android:name=".activity.Dashboard" />
+        <activity android:name=".activity.Register" />
+        <activity android:name=".activity.User" />
+        <activity android:name=".activity.Cattle" />
+        <activity android:name=".activity.Displacement" />
+        <activity android:name=".activity.Setting" />
+        <!--
+             The API key for Google maps-based APIs is defined as a string resource.
+             (See the file "res/values/google_maps_api.xml").
+             Note that the API key is linked to the encryption key used to sign the APK.
+             You need a different API key for each encryption key, including the release key that is used to
+             sign the APK for publishing.
+             You can define the keys for the debug and release targets in src/debug/ and src/release/. 
+        -->
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="@string/google_maps_key" />
+
+        <meta-data android:name="android.support.UI_OPTIONS"
+            android:value="splitActionBarWhenNarrow" />
+
+        <activity
+            android:name=".activity.Map"
+            android:label="@string/title_activity_map" />
+        <activity android:name=".activity.CattleList" />
+        <activity android:name=".activity.UserList" />
+        <activity android:name=".activity.DisplacementList" />
+        <activity android:name=".activity.Farm" />
+        <activity
+            android:name=".activity.FarmList" />
+        <activity android:name=".activity.Menu"></activity>
+    </application>
+
+</manifest>
