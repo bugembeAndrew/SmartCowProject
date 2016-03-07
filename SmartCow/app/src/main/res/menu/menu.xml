@@ -1,32 +1,38 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_height="wrap_content"
-    android:layout_width="match_parent"
-    >
-    <!-- Single menu item
-         Set id, icon and Title for each menu item
-    -->
-    <item android:id="@+id/menu_save"
-        android:icon="@drawable/save"
-        android:title="Save"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.smartcowprojekt.smartcow.activity.">
 
-    <item android:id="@+id/menu_edit"
-        android:icon="@drawable/edit"
-        android:title="Edit"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+    <item android:id="@+id/welcomeAction"
+        android:title="@string/welcome"
+        app:actionLayout="@layout/actionbar"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/logoutActionButton"
+        android:title="@string/logout"
+        app:actionLayout="@layout/action_button"
+        app:showAsAction="always" />
 
     <item android:id="@+id/menu_search"
         android:icon="@drawable/search"
-        android:title="Search"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:title="@string/search"
+        app:actionViewClass="android.support.v7.widget.SearchView"
+        app:showAsAction="always" />
+
+    <item android:id="@+id/menu_save"
+        android:icon="@drawable/save"
+        android:title="@string/save"
+        app:showAsAction="never" />
+
+    <item android:id="@+id/menu_edit"
+        android:icon="@drawable/edit"
+        android:title="@string/edit"
+        app:showAsAction="never" />
 
     <item android:id="@+id/menu_delete"
         android:icon="@drawable/delete"
-        android:title="Delete"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content" />
+        android:title="@string/delete"
+        app:showAsAction="never" />
+
 </menu>

@@ -1,6 +1,51 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:orientation="vertical" android:layout_width="match_parent"
-    android:layout_height="match_parent">
+<com.smartcowprojekt.smartcow.util.DashboardLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_weight="1"
+    android:background="#f8f9fe" >
 
-</LinearLayout>
+    <!--  maps Button -->
+    <Button
+        android:id="@+id/btn_maps"
+        style="@style/DashboardButtonStyle"
+        android:drawableTop="@drawable/map"
+        android:text="Maps" />
+
+    <!--  Cattle Button -->
+    <Button
+        android:id="@+id/btn_cattle"
+        style="@style/DashboardButtonStyle"
+        android:drawableTop="@drawable/cattle"
+        android:text="Cattle" />
+
+    <!--  Farm Button -->
+    <Button
+        android:id="@+id/btn_farm"
+        style="@style/DashboardButtonStyle"
+        android:drawableTop="@drawable/farms"
+        android:text="Farms" />
+
+    <!--  User Button -->
+    <Button
+        android:id="@+id/btn_user"
+        style="@style/DashboardButtonStyle"
+        android:drawableTop="@drawable/user"
+        android:text="Farmers" />
+
+    <!--  Info Button -->
+    <Button
+        android:id="@+id/btn_info"
+        style="@style/DashboardButtonStyle"
+        android:drawableTop="@drawable/info"
+        android:text="Info" />
+
+    <!--  settings Button -->
+    <Button
+        android:id="@+id/btn_settings"
+        style="@style/DashboardButtonStyle"
+        android:drawableTop="@drawable/setting"
+        android:text="Settings" />
+
+</com.smartcowprojekt.smartcow.util.DashboardLayout>

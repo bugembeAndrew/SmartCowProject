@@ -11,4 +11,6 @@
     <dimen name="latitude">15sp</dimen>
     <dimen name="longitude">15sp</dimen>
     <dimen name="speed">15sp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
 </resources>

@@ -1,5 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    android:background="@drawable/list_row_selector" android:padding="8dp">
+
+    <!-- Thumbnail Image -->
+    <!--<com.android.volley.toolbox.NetworkImageView
+        android:id="@+id/thumbnail"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_alignParentLeft="true"
+        android:layout_marginRight="8dp" />-->
+
+    <!-- Cattle Name -->
+    <!-- android:layout_alignTop="@+id/thumbnail"
+        android:layout_toRightOf="@+id/thumbnail"-->
+    <TextView
+        android:id="@+id/cattleName"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="@dimen/cattle_name"
+        android:textStyle="bold" />
+
+    <!-- Cattle Breed -->
+    <TextView
+        android:id="@+id/breed"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/cattleName"
+        android:textSize="@dimen/breed" />
 
 </RelativeLayout>

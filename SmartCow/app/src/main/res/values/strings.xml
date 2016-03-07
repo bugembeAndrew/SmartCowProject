@@ -1,6 +1,5 @@
 <resources>
     <string name="app_name">Smart Cow</string>
-    <string name="title_activity_map">Map</string>
     <string name="action_settings">Settings</string>
     <string name="sign_in_label">SIGN IN</string>
     <string name="sign_up_label">SIGN UP</string>
@@ -28,4 +27,25 @@
     <string name="milk">Litres Of Milk</string>
     <string name="breed">Breed</string>
     <string name="welcome">Welcome</string>
+    <string name="edit">Edit</string>
+    <string name="update">Update</string>
+    <string name="save">Save</string>
+    <string name="delete">Delete</string>
+    <string name="search">Search</string>
+    <string name="drawer_open">Smart Cow</string>
+    <string name="drawer_close">Smart Cow</string>
+
+    <string-array name="nav_array">
+        <item>Dashboard</item>
+        <item>Feeding</item>
+        <item>Heat</item>
+        <item>Idleness</item>
+        <item>Notifications</item>
+        <item>About</item>
+        <item>Contact</item>
+        <item>Help</item>
+    </string-array>
+    <string name="title_activity_main">Main</string>
+    <string name="title_activity_map">Map</string>
+    <string name="google_app_id">smartcow-1242</string>
 </resources>

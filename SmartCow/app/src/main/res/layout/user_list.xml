@@ -12,11 +12,12 @@
     <ListView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:id="@+id/farmerList"
+        android:id="@+id/userList"
         android:divider="@color/list_divider"
         android:dividerHeight="1dp"
         android:listSelector="@drawable/list_row_selector"
         android:layout_centerVertical="true"
         android:layout_centerHorizontal="true"
+        android:minHeight="?android:attr/listPreferredItemHeightSmall"
         android:choiceMode="singleChoice" />
 </RelativeLayout>
